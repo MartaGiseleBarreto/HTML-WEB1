@@ -7,6 +7,13 @@
 </head>
 <body>
     <h1>Atividade HTML - Inicio </h1>
-    <p>Este é o meu primeiro paragráfo feito em HTML</p>
+    <div>
+    <p>Este é o meu primeiro <strong>paragráfo</strong> feito em HTML</p>
+    <p>Continuo aprendendo HTML, <br> agora conhecendo mais tags! Com <a href="https://portal.uneb.br/" target="_blank">este link</a> você vai para o portal da UNEB. Neste código eu mostro o sinal de menor: &lt;</p>
+    <p>O <span style= "color:hotpink;">HTML</span> é a base da web.</p>
+    </div>
+    <a href="https://portal.uneb.br/" target="_blank">Portal da UNEB</a>
+    <img src="hp.jpg" alt="A imagem mostra a personagem Hello Kitty. Uma gatinha branca com sua amiga coelhinha em cima de sua cabeça.">
+    <img src="https://th.bing.com/th/id/R.66ec45e8918d3b21d79d57d367e0e72f?rik=dSsdz1mg2dq%2bew&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fe%2f2%2f2%2f968615-widescreen-hd-wallpaper-hello-kitty-1920x1080-lockscreen.jpg&ehk=cbg43HtGw8SNvy6YJdijOvQzk7J5E0FfbFzO2rTSMzU%3d&risl=&pid=ImgRaw&r=0" alt="Gatinha Hello Kitty com ursinha em cima da sua cabeça.>
 </body>
 </html>
