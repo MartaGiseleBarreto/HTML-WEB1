@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffabab; 
+    color: #f0d7d7; 
+}
+
+.secao {
+    padding: 25px 4%; 
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: hsl(345, 79%, 58%); 
+    border-bottom: 2px solid #f151a9;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+header {
+    background-color: hsl(345, 100%, 82%);; 
+    border-bottom: 4px solid hsl(345, 79%, 58%);
+    padding: 20px 4%;
+    text-align: center;
+}
+
+header h1 {
+    color: hsl(345, 79%, 58%);
+    text-shadow: 1px 1px 2px #000;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+header h2 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #000000; 
+    margin: 0;
+    border: none; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4em;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.card-destaque {
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    overflow: auto; 
+}
+
+.card-destaque img {
+    max-width: 250px; 
+    border-radius: 8px;
+    float: left; 
+    margin-right: 25px; 
+    margin-bottom: 10px;
+    border: 2px solid #333;
+}
+
+.card-destaque h3 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.card-destaque p {
+    line-height: 1.7;
+    font-size: 0.95em;
+    color: #ccc;
+}
+
+.generos-lista {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+.generos-lista li {
+    display: inline-block; 
+    background-color: hsl(345, 79%, 58%);
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+#catalogo {
+    background-color: transparent; 
+}
+
+.grade-filmes {
+    text-align: center; 
+}
+
+.card-filme {
+    display: inline-block; 
+    vertical-align: top; 
+    background-color: #1F1F1F; 
+    border: 1px solid #333; 
+    border-radius: 8px;
+    width: 190px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    margin: 10px; 
+    padding: 0; 
+}
+
+.card-filme img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-filme .info-card {
+     padding: 15px;
+     text-align: left;
+}
+
+.card-filme h3 {
+    font-size: 1.4em;
+    margin: 0 0 5px 0;
+    color: #fff;
+}
+
+.card-filme h3 a {
+    text-decoration: none;
+    color: hsl(345, 79%, 58%);
+}
+
+.card-filme p {
+    font-size: 0.85em;
+    color: #aaa;
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 0.95em;
+}
+
+th, td {
+    border: 1px solid #444; 
+    padding: 12px;
+    text-align: left;
+}
+
+thead th {
+    background-color: hsl(345, 79%, 58%);
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+tbody tr {
+     background-color: #222;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #1F1F1F;
+}
+
+footer {
+    background-color: #1F1F1F;
+    color: #aaa;
+    padding: 25px 4%;
+    text-align: left;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 8px;
+    overflow: auto;
+    border-top: 4px solid hsl(345, 79%, 58%);
+}
+
+footer h2 {
+    color: #fff;
+    border: none;
+    padding: 0;
+}
+
+.img-flutuante {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 3px solid hsl(345, 79%, 58%);
+}
+
+footer p {
+    line-height: 1.8;
+    font-size: 0.9em;
+}
+
+.redes-sociais {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.redes-sociais a {
+    color: #E5E5E5;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
